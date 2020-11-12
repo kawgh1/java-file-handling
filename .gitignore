@@ -8,7 +8,26 @@
 *.ear
 *.nar
 hs_err_pid*
-.out
+
+**/target/
+/target/
+*/target/*
+
+**/out/
+/out/
+*/out/*
+
+.classpath
+.project
+.settings
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.iml
+*.idea
 
 ##############################
 ## Maven
@@ -24,6 +43,7 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+*.iml
 
 ##############################
 ## Gradle
